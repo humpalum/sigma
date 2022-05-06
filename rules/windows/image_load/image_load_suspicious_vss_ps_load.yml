@@ -34,6 +34,7 @@ detection:
             - '\thor64.exe'
             - '\thor.exe'
             - '\rundll32.exe'
+            - '\inetsrv\iissetup.exe'
         Image|contains: 'c:\windows\'
     condition: selection and not filter
 falsepositives:
